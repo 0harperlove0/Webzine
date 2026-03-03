@@ -1,0 +1,73 @@
+html, body {
+  margin: 0;
+  height: 100%;
+  background-color: transparent;
+  color: blue;
+  text-decoration: underline;
+}
+
+body {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  margin: 0;
+  height: 100%;
+  line-height: 2.2;
+}
+
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1.5fr; 
+  height: 100%;
+  gap: 0px;
+}
+
+.section {
+  padding: 60px;
+  border-radius: 0px;
+}
+
+.section.two {
+  background-image: url("images/oldbird5.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: right;
+  color: blue;
+  text-decoration:underline;
+}
+
+.section.two a mark{
+  color: blue;
+  background-color: white;
+}
+
+.section.two a:visited {
+  color: blue;
+  background-color:white; 
+  text-decoration:underline;
+}
+
+.section.two a:hover mark {
+  background-color: white;
+  color: green;
+  text-decoration: underline;
+}
+
+.section.one, 
+.section.three {
+  background-image: url("images/oldbird6.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+mark {
+  background-color: white;
+  color: blue;
+  padding: 0;   
+}
+
+
+
+

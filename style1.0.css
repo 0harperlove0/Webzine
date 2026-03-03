@@ -1,0 +1,57 @@
+html, body {
+  margin: 0;
+  height: 100%;
+  background-color: transparent;
+  color: grey;
+}
+
+body {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  line-height: 2.2;
+  background-image: url(images/CLOUD3.png);
+  background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed; 
+    margin: 0; 
+    padding: 0;
+}
+
+
+/* Flexbox layout */
+.container {
+  display: flex;          /* puts image + text side by side */
+  align-items: flex-start;    /* vertically aligns them */
+  justify-content: center; /* centers the whole block */
+  gap: 100px;              /* space between image and text */
+  padding: 40px;
+}
+
+.small-img {
+  width: 400px;
+  height: auto;
+}
+
+.text {
+  max-width: 400px; /* prevents super wide text */
+  margin-top: 60px;
+}
+
+mark {
+  background-color: white;
+  color: grey;
+  padding: 0;   
+  font-weight: bold;
+}
+
+.home-button {
+  color: grey;
+  background-color: white;
+  padding: 0;   
+  font-weight: bold;
+}
+
+.home-button:hover {
+  color: green;
+}

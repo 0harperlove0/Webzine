@@ -1,0 +1,64 @@
+html, body {
+  margin: 0;
+  height: 100%;
+  background-color: transparent;
+  color: blue;
+}
+
+body {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+  margin: 0;
+  height: 100%;
+  line-height: 1;
+}
+
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3,1fr); 
+  height: 100%;
+  gap: 0px;
+}
+
+.section {
+  padding: 60px;
+  border-radius: 0px;
+}
+
+
+.section.two a mark{
+  color: blue;
+  text-decoration: none; 
+  background-color: white;
+}
+
+.section.one {
+  background-image: url("images/oldbird7.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+mark {
+  background-color: white;
+  color: blue;
+  padding: 0;   
+}
+
+.home-button {
+  display: inline-block;         
+  padding: 0px;   
+  color: blue; 
+  background-color: white;
+  text-decoration: underline;                                 
+  font-weight: bold;
+  text-align: center;
+  size: 15px;
+  transition: background-color 0.3s;
+}
+
+.home-button:hover {
+  color:green;
+  size: 20px;
+}
