@@ -67,7 +67,7 @@ mark {
   padding: 0;   
 }
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
 
   .grid {
     grid-template-columns: 1fr;   /* Stack everything vertically */
