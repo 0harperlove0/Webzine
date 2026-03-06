@@ -71,6 +71,7 @@ mark {
 @media (max-width: 600px) {
 
   .grid {
+    min-height: 100vh;  
     grid-template-columns: 1fr;   /* Stack everything vertically */
   }
 
@@ -79,8 +80,7 @@ mark {
   }
 
   .section.two {
-    text-align: center;  
-    min-height: 100vh;        /* Center text for better mobile readability */
+    text-align: center;        /* Center text for better mobile readability */
   }
 
   body {
