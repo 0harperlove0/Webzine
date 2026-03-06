@@ -72,19 +72,19 @@ mark {
 
   .grid {
     min-height: 100vh;  
-    grid-template-columns: 1fr;   /* Stack everything vertically */
+    grid-template-columns: 1fr;   
   }
 
   .section {
-    padding: 30px;               /* Reduce large padding for small screens */
+    padding: 30px;              
   }
 
   .section.two {
-    text-align: center;        /* Center text for better mobile readability */
+    text-align: center;       
   }
 
   body {
-    font-size: 16px;             /* Slightly smaller base font */
+    font-size: 16px;         
     line-height: 2.2;
   }
 
