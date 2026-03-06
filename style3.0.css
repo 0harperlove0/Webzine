@@ -72,15 +72,22 @@ mark {
     padding: 30px;               /* Reduce large padding for small screens */
   }
 
+  .section.one { order: 1; }
+  .section.two { order: 2; }
+  .section.three { order: 3; }
+
+  .section.one {
+  padding: 15px 30px;
+}
+
+.section.three {
+  max-height: 100px;
+}
+
   body {
     background: red;
     font-size: 16px;             /* Slightly smaller base font */
     line-height: 2.2;
-  }
-
-  .section.one,
-  .section.three {
-    display: none;
   }
 
 }
