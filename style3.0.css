@@ -62,3 +62,26 @@ mark {
   color:green;
   size: 20px;
 }
+
+@media (max-width: 600px) {
+
+  .grid {
+    min-height: 100vh;  
+    grid-template-columns: 1fr;   /* Stack everything vertically */
+  }
+
+  .section {
+    padding: 30px;               /* Reduce large padding for small screens */
+  }
+
+  body {
+    font-size: 16px;             /* Slightly smaller base font */
+    line-height: 2.2;
+  }
+
+  .section.one,
+  .section.three {
+    display: none;
+  }
+
+}
