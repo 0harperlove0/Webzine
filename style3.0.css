@@ -61,7 +61,7 @@ mark {
   size: 20px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
 
   .grid {
     min-height: 100vh;  
@@ -73,6 +73,7 @@ mark {
   }
 
   body {
+    background: red;
     font-size: 16px;             /* Slightly smaller base font */
     line-height: 2.2;
   }
